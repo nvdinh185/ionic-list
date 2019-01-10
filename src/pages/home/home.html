@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      List
+    </ion-title>
+  </ion-navbar>
+  <button ion-button (click)="BasicPage()">BasicPage</button>
+  <button ion-button (click)="SlidingPage()">SlidingPage</button>
+  <button ion-button (click)="DividersPage()">DividersPage</button>
+</ion-header>
+
+<ion-content padding>
+  <h1>List</h1>
+ <ion-list>
+   <ion-item>Nguyen Van Dinh</ion-item>
+   <button ion-item>DemoList</button>
+   <button ion-item>DemoList</button>
+ </ion-list>
+  <h1>List with Icon</h1>
+ <ion-list>
+   <ion-item><ion-icon name="star"></ion-icon>Nguyen Van Dinh</ion-item>
+ </ion-list>
+  <h1>List with Icon - position</h1>
+ <ion-list>
+   <ion-item>Nguyen van Dinh<ion-icon name="star" item-left></ion-icon></ion-item>
+   <ion-item>Nguyen van Dinh<ion-icon name="star" item-right></ion-icon></ion-item>
+ </ion-list>
+  <h1>List with Icon - Noline</h1>
+ <ion-list no-lines>
+   <ion-item>Nguyen van Dinh<ion-icon name="star" item-left></ion-icon></ion-item>
+   <ion-item>Nguyen van Dinh<ion-icon name="star" item-right></ion-icon></ion-item>
+ </ion-list>
+  <h1>List with Icon - inset</h1>
+ <ion-list inset>
+   <ion-item>Nguyen van Dinh<ion-icon name="star" item-left></ion-icon></ion-item>
+   <ion-item>Nguyen van Dinh<ion-icon name="star" item-right></ion-icon></ion-item>
+ </ion-list>
+
+<h1>item - group</h1>
+ <ion-item-group>
+   <ion-item-divider>A</ion-item-divider>
+   <ion-item>A123</ion-item>
+   <ion-item>A456</ion-item>
+   <ion-item>A789</ion-item>
+   <ion-item-divider>B</ion-item-divider>
+   <ion-item>B123</ion-item>
+   <ion-item>B456</ion-item>
+   <ion-item>B789</ion-item>
+ </ion-item-group>
+
+ <h1>list header</h1>
+ <ion-list inset>
+ <ion-list-header>Thong tin lien he</ion-list-header>
+   <ion-item>Nguyen van Dinh<ion-icon name="contact" item-left></ion-icon></ion-item>
+   <ion-item>Nguyen van Dinh<ion-icon name="star" item-left></ion-icon></ion-item>
+ </ion-list>
+</ion-content>

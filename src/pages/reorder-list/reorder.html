@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      List
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- ------------------------------------------ -->
+  <ion-list>
+    <ion-list-header>THONG TIN NGUOI DUNG</ion-list-header>
+    <ion-item-group reorder="true" (ionItemReorder)="reorderItems($event)">
+      <ion-item *ngFor="let item of items">{{ item }}</ion-item>
+    </ion-item-group>
+  </ion-list>
+  <!-- ------------------------------------------ -->
+</ion-content>

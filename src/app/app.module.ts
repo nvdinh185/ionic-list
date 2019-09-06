@@ -14,6 +14,7 @@ import { MultilinePage } from '../pages/lists/multiline/multiline';
 import { NoLinesPage } from '../pages/lists/no-lines/no-lines';
 import { SlidingPage } from '../pages/lists/sliding/sliding';
 import { ThumbnailPage } from '../pages/lists/thumbnail/thumbnail';
+import { ReorderPage } from '../pages/reorder-list/reorder';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ThumbnailPage } from '../pages/lists/thumbnail/thumbnail';
     MultilinePage,
     NoLinesPage,
     SlidingPage,
-    ThumbnailPage
+    ThumbnailPage,
+    ReorderPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,8 @@ import { ThumbnailPage } from '../pages/lists/thumbnail/thumbnail';
     MultilinePage,
     NoLinesPage,
     SlidingPage,
-    ThumbnailPage
+    ThumbnailPage,
+    ReorderPage
   ],
   providers: []
 })

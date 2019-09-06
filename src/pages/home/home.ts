@@ -10,6 +10,7 @@ import { MultilinePage } from '../lists/multiline/multiline';
 import { NoLinesPage } from '../lists/no-lines/no-lines';
 import { SlidingPage } from '../lists/sliding/sliding';
 import { ThumbnailPage } from '../lists/thumbnail/thumbnail';
+import { ReorderPage } from '../reorder-list/reorder';
 
 @Component({
   selector: 'page-home',
@@ -56,5 +57,9 @@ export class HomePage {
 
   thumbnail() {
     this.navCtrl.push(ThumbnailPage)
+  }
+
+  reorder() {
+    this.navCtrl.push(ReorderPage)
   }
 }
